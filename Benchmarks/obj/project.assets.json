@@ -5424,11 +5424,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\muhammad.sajid\\OneDrive - MPARSEC LTD\\Desktop\\Sajid\\learning\\Benchmarking_\\Benchmarks\\Benchmarks.csproj",
+      "projectUniqueName": "C:\\Users\\muhammad.sajid\\OneDrive - MPARSEC LTD\\Desktop\\test clone\\Benchmarks\\Benchmarks.csproj",
       "projectName": "Benchmarks",
-      "projectPath": "C:\\Users\\muhammad.sajid\\OneDrive - MPARSEC LTD\\Desktop\\Sajid\\learning\\Benchmarking_\\Benchmarks\\Benchmarks.csproj",
+      "projectPath": "C:\\Users\\muhammad.sajid\\OneDrive - MPARSEC LTD\\Desktop\\test clone\\Benchmarks\\Benchmarks.csproj",
       "packagesPath": "C:\\Users\\muhammad.sajid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\muhammad.sajid\\OneDrive - MPARSEC LTD\\Desktop\\Sajid\\learning\\Benchmarking_\\Benchmarks\\obj\\",
+      "outputPath": "C:\\Users\\muhammad.sajid\\OneDrive - MPARSEC LTD\\Desktop\\test clone\\Benchmarks\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
