@@ -3,14 +3,14 @@ using BenchmarkDotNet.Order;
 
 namespace Benchmarks
 {
-    [MemoryDiagnoser]
-    [Orderer(SummaryOrderPolicy.FastestToSlowest)]
-    [RankColumn]
-    public class MyClass
+    [MemoryDiagnoser] // Get the Memory allocated at each Benchmark.
+    [Orderer(SummaryOrderPolicy.FastestToSlowest)] // Get the results in specified order.
+    [RankColumn] // Get the Rank Column.
+    public class FirstClass
     {
         private const string str = "I am using Asp.Net Core";
 
-        [Benchmark]
+        [Benchmark] // Benchmarks will get the results for this method.
         public void SplitCharacters()
         {
             string[] characters = str.Split(" ");

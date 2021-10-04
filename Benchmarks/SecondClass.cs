@@ -4,21 +4,21 @@ using System;
 
 namespace Benchmarks
 {
-    [MemoryDiagnoser]
-    [Orderer(SummaryOrderPolicy.FastestToSlowest)]
-    [RankColumn]
+    [MemoryDiagnoser] // Get the Memory allocated at each Benchmark.
+    [Orderer(SummaryOrderPolicy.FastestToSlowest)] // Get the results in specified order.
+    [RankColumn] // Get the Rank Column.
     public class SecondClass
     {
         private const string dateTimeToString = "2021-12-13T16:33:06Z";
 
-        [Benchmark]
+        [Benchmark] // Benchmarks will get the results for each method it is defined.
         public int GetYearFromDateTime()
         {
             var dateTime = DateTime.Parse(dateTimeToString);
             return dateTime.Year;
         }
 
-        [Benchmark]
+        [Benchmark] // This Benchmark will get the results for the following method.
         public int GetYearFromSplit()
         {
             var splitter = dateTimeToString.Split('-');

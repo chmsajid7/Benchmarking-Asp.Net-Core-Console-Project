@@ -9,8 +9,10 @@ namespace Benchmarks
     {
         static void Main(string[] args)
         {
-            BenchmarkRunner.Run<MyClass>();
-            BenchmarkRunner.Run<SecondClass>();
+            BenchmarkRunner.Run<FirstClass>(); // Here you will get results of Benchmarks in FirstClass
+            BenchmarkRunner.Run<SecondClass>(); // Here you will get results of Benchmarks in SecondClass
+
+            // By running both, you will get the results of Benchmarks in both the classes
         }
     }
 }
