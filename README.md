@@ -10,5 +10,6 @@ To run the Benchmarks;
 Now you can see the results on Power-Shell...
 
 Moreover, Compiler will also create a directory in project's folder with the name "BenchmarkDotNet.Artifacts", which displays the results in html documented view.
+
 The results would be something like this:
 ![image](https://user-images.githubusercontent.com/76078773/135859359-de98572b-458a-4aae-b28b-795bc4bd9c8a.png)
